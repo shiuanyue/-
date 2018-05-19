@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Buildings>
 
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef  Name =“ 冷水晶 ” ParentName=“BuildingBase” >
     <defName>CrystalLamp</defName>
     <label>水晶燈</label>
     <description>一個冷水晶與木棍結合的燈,照亮一個區域,但水晶似乎吸收周圍的熱量</description>

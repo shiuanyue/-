@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ResourceBase" >
+    <defName>ColdCrystal</defName>
+    <label>冷水晶</label>
+    <description>這種奇怪的水晶可以用來照亮一個地區.它似乎吸收了熱量.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/ColdCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>25</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>25</stackLimit>
+	<deepCommonality>1</deepCommonality>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(252,187,113,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <heatPerSecond>-1</heatPerSecond>
+        <heatPushMinTemperature>-15</heatPushMinTemperature>
+      </li>
+    </comps>
+   </ThingDef>
+
+</Defs>

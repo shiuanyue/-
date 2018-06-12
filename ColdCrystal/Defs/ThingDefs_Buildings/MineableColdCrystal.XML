@@ -58,7 +58,7 @@
     <statBases>
       <MaxHitPoints>3000</MaxHitPoints>
     </statBases>
-	<description>這種奇怪的水晶可以用來照亮一個地區.它似乎吸收了熱量.</description>
+	<description>這種神祕的水晶照亮了一個區域；它還帶有一股涼意....</description>
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>ColdCrystal</mineableThing>

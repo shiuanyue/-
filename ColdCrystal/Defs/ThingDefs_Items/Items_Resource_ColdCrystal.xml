@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="ResourceBase" >
+
+  <ThingDef Name="ResourceBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <label>unspecified resource</label>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
     <defName>ColdCrystal</defName>
-    <label>冷水晶</label>
-    <description>這種奇怪的水晶可以用來照亮一個地區.它似乎吸收了熱量.</description>
+    <label>cold crystal</label>
+    <description>這種奇怪的水晶可以用來照亮一個地區.它似乎吸收了熱量</description>
     <graphicData>
       <texPath>Things/Item/Resource/ColdCrystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -16,8 +35,7 @@
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
-    <stackLimit>25</stackLimit>
-	<deepCommonality>1</deepCommonality>
+    <stackLimit>50</stackLimit>
     <comps>
       <li Class="CompProperties_Glower">
         <glowRadius>2</glowRadius>
@@ -28,6 +46,6 @@
         <heatPushMinTemperature>-15</heatPushMinTemperature>
       </li>
     </comps>
-   </ThingDef>
+  </ThingDef>
 
 </Defs>

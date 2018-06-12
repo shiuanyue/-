@@ -22,7 +22,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>ColdCrystal</defName>
     <label>cold crystal</label>
-    <description>這種奇怪的水晶可以用來照亮一個地區.它似乎吸收了熱量</description>
+    <description>這種神祕的水晶照亮了一個區域；它還帶有一股涼意...</description>
     <graphicData>
       <texPath>Things/Item/Resource/ColdCrystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>

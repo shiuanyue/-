@@ -3,7 +3,8 @@
 
   <ThingDef ParentName="FurnitureBase">
     <defName>CrystalLamp</defName>
-    <label>crystal lamp</label>    <description>一個冷水晶與木棍結合的燈,照亮一個區域,但水晶似乎吸收周圍的熱量.</description>
+    <label>crystal lamp</label>    
+    <description>一個冷水晶與木棍結合的燈,照亮一個區域,但水晶似乎吸收周圍的熱量.</description>
     <category>Building</category>
     <graphicData>
       <texPath>Things/Building/Misc/CrystalLamp</texPath>
